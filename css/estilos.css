@@ -1,11 +1,12 @@
 body
 {
-    color: blue;
+    color: #333;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 #cabecera
@@ -32,6 +33,7 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    background-color: blanchedalmond;
 }
 
 #container h1
@@ -41,4 +43,11 @@ body
 #post
 {
     padding: 1em;
+}
+#footer{
+    text-align: center;
+    padding: 2px;
+    margin: 0 auto;
+    border:solid #333;
+    background-color: aquamarine;
 }
